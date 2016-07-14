@@ -6,6 +6,7 @@ gem 'newrelic_rpm'
 gem 'stead', '0.0.16'
 
 group :development do
+  gem 'capistrano-rails', '~> 1.1'
   gem 'pry-rails'
 end
 
@@ -26,7 +27,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
