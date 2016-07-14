@@ -69,7 +69,7 @@ Steady::Application.configure do
   # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
    :address              => "smtp.gmail.com",
-   :domain               => 'ec2-52-23-227-75.compute-1.amazonaws.com',
+   :domain               => "gmail.com",
    :port                 => 587,
    :user_name            => ENV['GMAIL_USER'],
    :password             => ENV['GMAIL_PASS'],
