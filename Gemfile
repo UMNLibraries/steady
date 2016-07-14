@@ -54,3 +54,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'capistrano-passenger'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rvm'
